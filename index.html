@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+</head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+<body>
 
-  </body>
+    <div class="container">
+        <header class="page-header">
+            <nav class="main-navigation">
+                <a href="#" class="nav-link">Информация</a>
+                <a href="#" class="nav-link">Фото и видео</a>
+                <a href="#" class="nav-link">Карта штата</a>
+                <a href="hotels.html" class="nav-link">Гостиницы</a>
+            </nav>
+            <a class="logo">
+                <img src="http://placehold.it/150x100" alt="логотип седона">
+            </a>
+        </header>
+        <main>
+            <section class="intro">
+                <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+                <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+            </section>
+            <section class="reason">
+                <div class="reason-item reason-item-blue">
+                    <h2>Настоящий городок</h2>
+                    <span>-№1-</span>
+                    <p>Седона- не аттракцион для туристов, там течет твоя жизнь</p>
+                </div>
+                <img src="http://placehold.it/150x100" alt="Welcom to Sedona">
+            </section>
+            <section class="promo">
+                <ul class="promo-list">
+                    <li class="promo-item promo-item-house">
+                        <b>Жилье</b>
+                        <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                    </li>
+                    <li class="promo-item promo-item-food">
+                        <b>Еда</b>
+                        <p>Всегда заказывайте фименный бургер, вы не разочаруетесь!</p>
+                    </li>
+                    <li class="promo-item promo-item-souvenir">
+                        <b>Сувениры</b>
+                        <p>Не только китайского, но и местного производства!</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="reason">
+                <img src="http://placehold.it/150x100" alt="Welcom to Sedona">
+                <div class="reason-item reason-item-blue">
+                    <h2>Там есть мост дьявола</h2>
+                    <span>-№2-</span>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                </div>
+            </section>
+            <section class="reason">
+                <div class="reason-item reason-item-grey">
+                    <h2>Небольшая площадь</h2>
+                    <span>-№3-</span>
+                    <p>Все достопримечательности находятся очень близко</p>
+                </div>
+                <div class="reason-item reason-item-grey">
+                    <h2>Красивая дорога</h2>
+                    <span>-№4-</span>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </div>
+                <div class="reason-item reason-item-grey">
+                    <h2>Мало туристов</h2>
+                    <span>-№5-</span>
+                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+                </div>
+            </section>
+            <section class="search">
+                <h2>Заинтересовались?</h2>
+                <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+                <button class="search-btn">Поиск гостиницы в Седоне</button>
+                <form action="#" class="search-form" method="get">
+                    <p>
+                        <label for="date-in">Дата заезда:</label>
+                        <input type="text" name="date-in" value="24 апреля 2017">
+                        <button class="search-calendar">Calendar</button>
+                    </p>
+                    <p>
+                        <label for="date-out">Дата выезда:</label>
+                        <input type="text" name="date-out" value="4 июля 2017">
+                        <button class="search-calendar">Calendar</button>
+                    </p>
+                    <div>
+                        <div class="search-adult">
+                            <label for="adult">Взрослый:</label>
+                            <button class="search-minus">Minus</button>
+                            <input type="text" name="adult" value="2">
+                            <button class="search-plus">Plus</button>
+                        </div>
+                        <div class="search-children">
+                            <label for="children">Дети:</label>
+                            <button class="search-minus">Minus</button>
+                            <input type="text" name="children" value="0">
+                            <button class="search-plus">Plus</button>
+                        </div>
+                    </div>
+                    <buttun class="search-btn" type="submit">Найти</buttun>
+                </form>
+            </section>
+            <div class="map">карта</div>
+        </main>
+        <footer class="page-footer">
+            <div class="insta"><b>#Visitsedona</b></div>
+            <div class="footer-social">
+                <a href="#" class="social-btn social-btn-tw" target="_blank">Твиттер</a>
+                <a href="#" class="social-btn social-btn-fb" target="_blank">Фэйсбук</a>
+                <a href="#" class="social-btn social-btn-yt" target="_blank">Ютуб</a>
+            </div>
+            <div class="footer-htmlacademy">
+                <b>website by</b>
+                <a href="https://htmlacademy.ru/" target="_blank"><img src="http://placehold.it/150x100" alt="htmlacademy"></a>
+            </div>
+        </footer>
+    </div>
+
+
+
+</body>
+
 </html>
