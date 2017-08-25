@@ -1,0 +1,15 @@
+body {
+    font-family: "PTSans", "Areal", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+.intro h2 {
+    font-size: 21px;
+    line-height: 26px; 
+    font-weight: 700;
+}
+.reason-item h2 {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+}
